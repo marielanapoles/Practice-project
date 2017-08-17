@@ -1,9 +1,37 @@
+/* Global Styles ===============================================*/
 * {
   box-sizing: border-box;
+  font-family: helvetica, sans-serif;
 }
 
-header {
-  background-color: white;
-  color: yellow;
+body {
+  width: 100%;
+}
+
+/*Main Styles ===================================================*/
+.main-header {
+  background-color: yellow;
+  color: darkgrey;
   text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+footer {
+  background: grey;
+  border-bottom: 8px solid yellow;
+  text-align: center;
+}
+
+/* layout styles ======================================*/
+.container {
+  width: 70%;
+  margin: 0 auto;
+
 }
