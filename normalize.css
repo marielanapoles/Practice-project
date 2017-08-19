@@ -448,10 +448,21 @@ template {
 
 /* LIST
    ========================================================================== */
-
  ol,
-  ul {
+  ul, li {
    margin: 0;
    padding: 0;
    list-style: none;
  }
+
+ /* LIST
+    ========================================================================== */
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      color: yellow;
+    }
